@@ -10,7 +10,7 @@ function Footer() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Pavan MG
+          Matthew
         </a>{" "}
         with
         <span className="text-gradient font-medium"> Love</span> &
