@@ -36,15 +36,15 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Paul Swann",
-  tagline: "I build things for web",
+  tagline: "I will make you happy with my suitable skills",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Lovely UK based Developer with React, Vue, Node, Laravel, Flutter, React Native and Blockchain`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  github: "https://www.github.com/swraithe",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -54,21 +54,21 @@ export const workDetails = [
   {
     Position: "Frontend Web Developer",
     Company: `Company Name here`,
-    Location: "Bengaluru",
+    Location: "UK",
     Type: "Full Time",
     Duration: "Sep 2021 - Dec 2021",
   },
   {
     Position: "Internship",
     Company: `Company Name here`,
-    Location: "Bengaluru",
+    Location: "UK",
     Type: "Internship",
     Duration: "Sep 2021 - Dec 2021",
   },
   {
     Position: "Internship",
     Company: `Company Name here`,
-    Location: "Bengaluru",
+    Location: "UK",
     Type: "Internship",
     Duration: "Sep 2021 - Dec 2021",
   },
