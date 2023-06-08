@@ -3,13 +3,14 @@ import { techStackDetails } from "../Details";
 
 function Technologies() {
   const {
-    html,
-    css,
+    // html,
+    // css,
     js,
     react,
+    vue,
     redux,
     tailwind,
-    bootstrap,
+    // bootstrap,
     sass,
     vscode,
     git,
@@ -29,13 +30,11 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={js} title="JavaScript" alt="" />
         <img src={react} title="React" alt="" />
+        <img src={vue} title="Vue" alt="" />
         <img src={redux} title="Redux" alt="" />
+        <img src={js} title="JavaScript" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
       </section>
       <section>

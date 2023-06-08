@@ -10,6 +10,7 @@ import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
+import vue from "./assets/techstack/vue.png";
 import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
@@ -20,12 +21,12 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/portpolio-marketplace.png";
+import projectImage2 from "./assets/projects/portpolio-travel.png";
+import projectImage3 from "./assets/projects/portpolio-phone.png";
+import projectImage4 from "./assets/projects/portpolio-bot.png";
+import projectImage5 from "./assets/projects/portpolio-cafe.png";
+import projectImage6 from "./assets/projects/portpolio-dashboard.png";
 
 // Logos
 export const logos = {
@@ -52,43 +53,35 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "UK",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Full Stack Developer",
+    Company: `Upwork`,
+    Location: "online",
+    Type: "Part Time",
+    Duration: "May 2023 - Current",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
+    Position: "Full Stack Developer",
+    Company: `Wurkhouse`,
     Location: "UK",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Type: "Part Time",
+    Duration: "May 2022 - Mar 2023",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
+    Position: "Frontend Developer",
+    Company: `CheTu`,
     Location: "UK",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Type: "Part Time",
+    Duration: "Sep 2021 - Apr 2022",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Ulster University Magee Campus",
+    Company: "University in Derry",
+    Location: "Northern Ireland",
+    Type: "Bachelor of Computer Science",
   },
 ];
 
@@ -98,6 +91,7 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
+  vue: vue,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
@@ -170,6 +164,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "swraithe69@gmail.com",
+  phone: "+44 07706 528067",
 };
