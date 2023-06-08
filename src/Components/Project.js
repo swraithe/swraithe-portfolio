@@ -3,12 +3,14 @@ import React from "react";
 function Project({ title, image, description, techstack, previewLink, githubLink }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img src={image} alt="" loading="lazy" />
-      <div className="dark:bg-dark-card p-4">
+      <div className="my-1" style={{height : '150px', overflow: 'hidden'}}>
+        <img src={image} alt="" loading="lazy" />
+      </div>
+      <div className="dark:bg-dark-card p-4 " style={{ height : '350px'}}>
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light">{description}</p>
+        <p className="text-content pt-4 font-light" style={{ height : '150px', overflow: 'hidden'}}>{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-          Tech Stack : <span className="font-light">{techstack}</span>
+          Skills : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">

@@ -1,6 +1,6 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
+import logogradient from "./assets/logo.png";
 import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
@@ -107,56 +107,51 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "EasyMarket",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.
+  `,
+    techstack: "React | Laravle | Firebase | 2FA | JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "Travel Assist",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `ravel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
+    techstack: "Mobile | FlutterFlow | Firebase | REST API",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "PhoneMarket",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `PhoneMarket is an online marketplace where you can buy and sell new and used phones. Our platform offers a secure and easy-to-use interface, with built-in two-factor authentication to ensure the safety of all transactions. `,
+    techstack: "Flutter | Laravel | Firebase | REST API",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "SmartBot",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Look no further! I will create a custom Python bot tailored to your specific needs. `,
+    techstack: "Python | Bot | Discord | SMS ",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 5",
+    title: "CafeHub",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `CafeHub is a modern and user-friendly cafe booking site built using Vue, Node, AWS, and lazy loading techniques. `,
+    techstack: "Vue | Node | AWS | REST API",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 6",
+    title: "CryptoX",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `CryptoX is a cutting-edge cryptocurrency exchange platform built on React and Laravel.`,
+    techstack: "Blockchain | Web3 | React | Laravel | SWAP",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
