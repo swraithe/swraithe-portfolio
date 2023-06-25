@@ -159,6 +159,7 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
+  address:"Derry, Northern Ireland",
   email: "swraithe69@gmail.com",
   phone: "+44 07706 528067",
 };
