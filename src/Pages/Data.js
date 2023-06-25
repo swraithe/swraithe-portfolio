@@ -79,7 +79,19 @@ const app_data = {
             rate:"5"
         },
         {
-            name:"twilio for SMS service",
+            name:"Twilio for SMS service",
+            rate:"5"
+        },
+        {
+            name:"Sendgrid for Email service",
+            rate:"5"
+        },
+        {
+            name:"Google translate service",
+            rate:"5"
+        },
+        {
+            name:"Live Chat Bot",
             rate:"5"
         },
     ]
