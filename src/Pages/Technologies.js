@@ -4,10 +4,10 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
+// import Stack from '@mui/material/Stack';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
-import { techStackDetails } from "../Details";
+// import { techStackDetails } from "../Details";
 import appData from './Data';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -21,7 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const SubTitle = styled('div')(({ theme }) => ({
   ...theme.typography.button,
   // backgroundColor: theme.palette.background.paper,
-  padding: theme.spacing(1),
+  // padding: theme.spacing(1),
   fontSize: "32px",
   fontWeight: "700",
   backgroundColor:'#1A2027',
@@ -30,23 +30,23 @@ const SubTitle = styled('div')(({ theme }) => ({
   marginBottom: '10px'
 }));
 function Technologies() {
-  const {
-    // html,
-    // css,
-    js,
-    react,
-    vue,
-    redux,
-    tailwind,
-    // bootstrap,
-    sass,
-    vscode,
-    git,
-    github,
-    npm,
-    postman,
-    figma,
-  } = techStackDetails;
+  // const {
+  //   // html,
+  //   // css,
+  //   js,
+  //   react,
+  //   vue,
+  //   redux,
+  //   tailwind,
+  //   // bootstrap,
+  //   sass,
+  //   vscode,
+  //   git,
+  //   github,
+  //   npm,
+  //   postman,
+  //   figma,
+  // } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
