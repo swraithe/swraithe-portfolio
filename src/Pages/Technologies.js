@@ -71,6 +71,7 @@ function Technologies() {
           </Grid>
         </Box>
       </section>
+      <br />
       <section>
         <SubTitle>Additional Skills</SubTitle>
         <p className="text-content py-2 lg:max-w-3xl">

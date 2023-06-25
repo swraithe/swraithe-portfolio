@@ -91,7 +91,15 @@ const app_data = {
             rate:"5"
         },
         {
-            name:"Live Chat Bot",
+            name:"Live Chat, Agora",
+            rate:"5"
+        },
+        {
+            name:"Discord Service",
+            rate:"5"
+        },
+        {
+            name:"chatGPT Integration",
             rate:"5"
         },
     ]
