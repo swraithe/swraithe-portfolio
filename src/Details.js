@@ -27,6 +27,9 @@ import projectImage3 from "./assets/projects/portpolio-phone.png";
 import projectImage4 from "./assets/projects/portpolio-bot.png";
 import projectImage5 from "./assets/projects/portpolio-cafe.png";
 import projectImage6 from "./assets/projects/portpolio-dashboard.png";
+import projectNFT from "./assets/projects/portfolio-nft.jpg";
+import projectDex from "./assets/projects/portfolio-dex.jpg";
+import projectNext from "./assets/projects/portfolio-next.png";
 
 // Logos
 export const logos = {
@@ -37,9 +40,9 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Paul Swann",
-  tagline: "I will make you happy with my suitable skills",
+  tagline: "It is my pleasure to make you happy with my suitable skills",
   img: profile,
-  about: `Lovely UK based Developer with React, Vue, Node, Laravel, Flutter, React Native and Blockchain`,
+  about: `Lovely UK based Developer with cutting-edge technologies and Web solutions such as AI, Blockchain, React, Vue, Node, Laravel and React Native`,
 };
 
 // Enter your Social Media URLs here
@@ -109,16 +112,55 @@ export const projectDetails = [
   {
     title: "EasyMarket",
     image: projectImage1,
-    description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.
-  `,
-    techstack: "React | Laravle | Firebase | 2FA | JavaScript",
+    description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.`,
+    techstack: "React | Laravel | Firebase | 2FA | JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "SmartBot",
+    image: projectImage4,
+    description: `SmartBot is responsible for receiveing the alert text of Admin from Discord and seding it Discord users by SMS. Look no further! I will create a custom Python bot tailored to your specific needs.`,
+    techstack: "Python | Bot | Discord | SMS ",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "CafeHub",
+    image: projectImage5,
+    description: `CafeHub is a modern and user-friendly cafe booking site built using Vue, Node, AWS, and lazy loading techniques.`,
+    techstack: "Vue | Node | AWS | REST API",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "CryptoGoal",
+    image: projectNFT,
+    description: `CryptoGoal is the arbitrage bot based on the cutting-edge cryptocurrency technology and Node.js`,
+    techstack: "Blockchain | Web3 | Arbitrage | Solidity | Smart Contract",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "CryptoX",
+    image: projectImage6,
+    description: `CryptoX is a cutting-edge cryptocurrency exchange platform built on React and Laravel.`,
+    techstack: "Blockchain | Web3 | React | Laravel | SWAP",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "FastDEX",
+    image: projectDex,
+    description: `FastDex is the DEX template that developers can create DEX platform easily and rapdly.`,
+    techstack: "Blockchain | Web3 | React | Node | AWS",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
     title: "Travel Assist",
     image: projectImage2,
-    description: `ravel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
+    description: `Travel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
     techstack: "Mobile | FlutterFlow | Firebase | REST API",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -132,26 +174,10 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "SmartBot",
-    image: projectImage4,
-    description: `Look no further! I will create a custom Python bot tailored to your specific needs. `,
-    techstack: "Python | Bot | Discord | SMS ",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "CafeHub",
-    image: projectImage5,
-    description: `CafeHub is a modern and user-friendly cafe booking site built using Vue, Node, AWS, and lazy loading techniques. `,
-    techstack: "Vue | Node | AWS | REST API",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "CryptoX",
-    image: projectImage6,
-    description: `CryptoX is a cutting-edge cryptocurrency exchange platform built on React and Laravel.`,
-    techstack: "Blockchain | Web3 | React | Laravel | SWAP",
+    title: "YourTurn",
+    image: projectNext,
+    description: `YourTrun is your dream porject that you are looking for. I can help you immediately and perfectly.`,
+    techstack: "AI | Blockchain | Web | Custom Service",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },

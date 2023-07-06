@@ -62,7 +62,7 @@ const app_data = {
         },
         {
             name:'Solidity',
-            rate: 4
+            rate: 5
         },
         {
             name:'React Native',
@@ -100,6 +100,10 @@ const app_data = {
         },
         {
             name:"chatGPT Integration",
+            rate:"5"
+        },
+        {
+            name:"AI | NLP | R code",
             rate:"5"
         },
     ]
