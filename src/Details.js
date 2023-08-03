@@ -57,7 +57,7 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Full Stack Developer",
-    Company: `Upwork`,
+    Company: `Xirates`,
     Location: "online",
     Type: "Part Time",
     Duration: "May 2023 - Current",
