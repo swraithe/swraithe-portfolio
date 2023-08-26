@@ -30,23 +30,6 @@ const SubTitle = styled('div')(({ theme }) => ({
   marginBottom: '10px'
 }));
 function Technologies() {
-  // const {
-  //   // html,
-  //   // css,
-  //   js,
-  //   react,
-  //   vue,
-  //   redux,
-  //   tailwind,
-  //   // bootstrap,
-  //   sass,
-  //   vscode,
-  //   git,
-  //   github,
-  //   npm,
-  //   postman,
-  //   figma,
-  // } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>

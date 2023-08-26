@@ -61,6 +61,11 @@ function Header() {
                 About
               </NavLink>
             </li>
+            <li className="pb-1 md:pb-0">
+              <NavLink to="/team" onClick={toggleClass}>
+                Team
+              </NavLink>
+            </li>
             <li>
               <NavLink to="/contact" onClick={toggleClass}>
                 Contact

@@ -1,9 +1,9 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.png";
-import logo from "./assets/logo2.svg";
+import logogradient from "./assets/images/logo.png";
+import logo from "./assets/images/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/images/profile.jpeg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -30,6 +30,11 @@ import projectImage6 from "./assets/projects/portpolio-dashboard.png";
 import projectNFT from "./assets/projects/portfolio-nft.jpg";
 import projectDex from "./assets/projects/portfolio-dex.jpg";
 import projectNext from "./assets/projects/portfolio-next.png";
+
+// Team avatar
+import member1 from "./assets/images/profile.jpeg";
+import member2 from "./assets/images/member2.jpg";
+import nextmember from "./assets/images/nextmember.jpg";
 
 // Logos
 export const logos = {
@@ -81,8 +86,8 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Ulster University Magee Campus",
-    Company: "University in Derry",
+    Position: "North West Regional College",
+    Company: "Derry, Londonderry",
     Location: "Northern Ireland",
     Type: "Bachelor of Computer Science",
   },
@@ -115,7 +120,7 @@ export const projectDetails = [
     description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.`,
     techstack: "React | Laravel | Firebase | 2FA | JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "SmartBot",
@@ -123,7 +128,7 @@ export const projectDetails = [
     description: `SmartBot is responsible for receiveing the alert text of Admin from Discord and seding it Discord users by SMS. Look no further! I will create a custom Python bot tailored to your specific needs.`,
     techstack: "Python | Bot | Discord | SMS ",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "CafeHub",
@@ -131,7 +136,7 @@ export const projectDetails = [
     description: `CafeHub is a modern and user-friendly cafe booking site built using Vue, Node, AWS, and lazy loading techniques.`,
     techstack: "Vue | Node | AWS | REST API",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "CryptoGoal",
@@ -139,7 +144,7 @@ export const projectDetails = [
     description: `CryptoGoal is the arbitrage bot based on the cutting-edge cryptocurrency technology and Node.js`,
     techstack: "Blockchain | Web3 | Arbitrage | Solidity | Smart Contract",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "CryptoX",
@@ -147,7 +152,7 @@ export const projectDetails = [
     description: `CryptoX is a cutting-edge cryptocurrency exchange platform built on React and Laravel.`,
     techstack: "Blockchain | Web3 | React | Laravel | SWAP",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "FastDEX",
@@ -155,7 +160,7 @@ export const projectDetails = [
     description: `FastDex is the DEX template that developers can create DEX platform easily and rapdly.`,
     techstack: "Blockchain | Web3 | React | Node | AWS",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "Travel Assist",
@@ -163,7 +168,7 @@ export const projectDetails = [
     description: `Travel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
     techstack: "Mobile | FlutterFlow | Firebase | REST API",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "PhoneMarket",
@@ -171,7 +176,7 @@ export const projectDetails = [
     description: `PhoneMarket is an online marketplace where you can buy and sell new and used phones. Our platform offers a secure and easy-to-use interface, with built-in two-factor authentication to ensure the safety of all transactions. `,
     techstack: "Flutter | Laravel | Firebase | REST API",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
   {
     title: "YourTurn",
@@ -179,8 +184,29 @@ export const projectDetails = [
     description: `YourTrun is your dream porject that you are looking for. I can help you immediately and perfectly.`,
     techstack: "AI | Blockchain | Web | Custom Service",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/swraithe",
   },
+];
+// Enter your Project Details here
+export const teamDetails = [
+  {
+    name: "Paul Swann",
+    image: member1,
+    role: "HR, Frontend",
+    description: `Responsible for contact with client and Frontend`,
+  }, 
+  {
+    name: "Jonas Teo",
+    image: member2,
+    role: "Backend, Blockchain",
+    description: `Responsible for Backend, Blockchain, CMS`,
+  },
+  {
+    name: "Next Member",
+    image: nextmember,
+    role: "AI, Mobile",
+    description: `Responsible for AI, Mobile`,
+  }
 ];
 
 // Enter your Contact Details here
