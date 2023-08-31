@@ -176,7 +176,7 @@ export const projectDetails = [
     title: "AvadaTo",
     image: projectImage7,
     description: `AvadaTo is a wordpresss customization using Avada theme and plugins`,
-    techstack: "Wordpress | Customization | Avada | HTML | Javascript",
+    techstack: "Wordpress | Customization | Avada | WooCommerce | PHP | Javascript",
     previewLink: "https://google.com",
     githubLink: "https://github.com/swraithe",
   },
