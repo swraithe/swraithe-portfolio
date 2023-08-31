@@ -27,6 +27,8 @@ import projectImage3 from "./assets/projects/portpolio-phone.png";
 import projectImage4 from "./assets/projects/portpolio-bot.png";
 import projectImage5 from "./assets/projects/portpolio-cafe.png";
 import projectImage6 from "./assets/projects/portpolio-dashboard.png";
+import projectImage7 from "./assets/projects/portfolio-avada.png";
+import projectImage8 from "./assets/projects/portfolio-amazon.jpg";
 import projectNFT from "./assets/projects/portfolio-nft.jpg";
 import projectDex from "./assets/projects/portfolio-dex.jpg";
 import projectNext from "./assets/projects/portfolio-next.png";
@@ -115,6 +117,22 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "FastDEX",
+    image: projectDex,
+    description: `FastDex is the DEX template that developers can create DEX platform easily and rapdly.`,
+    techstack: "Blockchain | Web3 | React | Node | AWS",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/swraithe",
+  },
+  {
+    title: "WithClould",
+    image: projectImage8,
+    description: `WithClould is a project using Amazon services including GAE, Lambda, EC2, EMR, ECS and etc`,
+    techstack: "AWS | Clould | GAE | Javascript | Python",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/swraithe",
+  },
+  {
     title: "EasyMarket",
     image: projectImage1,
     description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.`,
@@ -155,14 +173,14 @@ export const projectDetails = [
     githubLink: "https://github.com/swraithe",
   },
   {
-    title: "FastDEX",
-    image: projectDex,
-    description: `FastDex is the DEX template that developers can create DEX platform easily and rapdly.`,
-    techstack: "Blockchain | Web3 | React | Node | AWS",
+    title: "AvadaTo",
+    image: projectImage7,
+    description: `AvadaTo is a wordpresss customization using Avada theme and plugins`,
+    techstack: "Wordpress | Customization | Avada | HTML | Javascript",
     previewLink: "https://google.com",
     githubLink: "https://github.com/swraithe",
   },
-  {
+   {
     title: "Travel Assist",
     image: projectImage2,
     description: `Travel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
