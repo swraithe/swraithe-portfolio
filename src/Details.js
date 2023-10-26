@@ -32,6 +32,7 @@ import projectImage8 from "./assets/projects/portfolio-amazon.jpg";
 import projectNFT from "./assets/projects/portfolio-nft.jpg";
 import projectDex from "./assets/projects/portfolio-dex.jpg";
 import projectNext from "./assets/projects/portfolio-next.png";
+import projectAiAnimation from "./assets/projects/portfolio-aianimation.png";
 
 // Team avatar
 import member1 from "./assets/images/profile.jpeg";
@@ -117,6 +118,30 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "Dream animation with AI",
+    image: projectAiAnimation,
+    description: `Dream animation with AI involves using artificial intelligence (AI) techniques to generate or enhance animations and visual effects. `,
+    techstack: "AI | Python | Animation | Gradio",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/swraithe",
+  },
+  {
+    title: "Travel Assist",
+    image: projectImage2,
+    description: `Travel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
+    techstack: "Mobile | FlutterFlow | Firebase | REST API",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/swraithe",
+  },
+  {
+    title: "EasyMarket",
+    image: projectImage1,
+    description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.`,
+    techstack: "React | Laravel | Firebase | 2FA | JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/swraithe",
+  },
+  {
     title: "FastDEX",
     image: projectDex,
     description: `FastDex is the DEX template that developers can create DEX platform easily and rapdly.`,
@@ -129,14 +154,6 @@ export const projectDetails = [
     image: projectImage8,
     description: `WithClould is a project using Amazon services including GAE, Lambda, EC2, EMR, ECS and etc`,
     techstack: "AWS | Clould | GAE | Javascript | Python",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/swraithe",
-  },
-  {
-    title: "EasyMarket",
-    image: projectImage1,
-    description: `Our React Laravel Firebase Marketplace is a platform that brings together buyers and sellers of various products.`,
-    techstack: "React | Laravel | Firebase | 2FA | JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com/swraithe",
   },
@@ -180,14 +197,7 @@ export const projectDetails = [
     previewLink: "https://google.com",
     githubLink: "https://github.com/swraithe",
   },
-   {
-    title: "Travel Assist",
-    image: projectImage2,
-    description: `Travel Assist is the ultimate travel companion app designed to make your travels more enjoyable and stress-free.`,
-    techstack: "Mobile | FlutterFlow | Firebase | REST API",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/swraithe",
-  },
+   
   {
     title: "PhoneMarket",
     image: projectImage3,
@@ -231,5 +241,5 @@ export const teamDetails = [
 export const contactDetails = {
   address:"Derry, Northern Ireland",
   email: "swraithe69@gmail.com",
-  phone: "+44 07706 528067",
+  phone: "+44 07871 265346",
 };

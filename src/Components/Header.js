@@ -18,8 +18,8 @@ function Header() {
             <NavLink to="/">
               <img className="w-14" src={logos.logogradient} alt="logo" />
             </NavLink>
-            <h1 className="text-white text-3xl mx-3">Matthew</h1>
-            <h2 className="text-orange-400 text-2xl mx-1 italic">in UK</h2>
+            <h1 className="text-white text-3xl mx-3">Paul Swann</h1>
+            <h2 className="text-orange-400 text-2xl mx-1 italic">with Modern Tech</h2>
           </div>
           <div onClick={toggleClass} className="cursor-pointer">
             <svg
